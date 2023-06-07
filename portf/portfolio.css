@@ -2,6 +2,12 @@
   padding: 0px;
   margin: 0px;
 }
+h1{
+  padding: 10px;
+}
+.nav{
+  padding: 77px;
+}
 body {
     font-family: sans-serif;
     margin: 10;
@@ -10,12 +16,13 @@ body {
     background-color: black;
     color:whitesmoke;
   }
-  
+  .name{
+    padding: 10px;
+  }
   header {
     background-image: 
     url('images.jpeg');
     color: #fff;
-    padding: 77px;
     background-repeat: no-repeat;
   }
   
@@ -23,6 +30,7 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
   }
   
   nav li{
